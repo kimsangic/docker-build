@@ -83,6 +83,6 @@ RUN cd program/phyloFlash-pf3.4 ; \
   rm UniVec/UniVec ; \
   rm SILVA_138_SSURef_NR99_tax_silva_trunc.fasta.gz
     
-ENV PHYLOFLASH_DBHOME="/program/phyloFlash-pf3.5/138"
+ENV PHYLOFLASH_DBHOME="/program/phyloFlash-pf3.4/138"
 
 WORKDIR /data
