@@ -3,12 +3,11 @@ FROM ubuntu:20.04
 ENV DEBIAN_FRONTEND=nonintercative
 
 # metadata
-LABEL container.version="1"
 LABEL software="phylofalsh"
 LABEL software.version="3.4"
 LABEL description="Taxonomic sequence classifier"
+LABEL database="SILVA SSU NR99 database 138 (https://www.arb-silva.de/no_cache/download/archive/release_138/)"
 LABEL website="https://github.com/HRGV/phyloFlash"
-LABEL license="https://github.com/HRGV/phyloFlash/blob/master/LICENSE"
 LABEL maintainer="Sang-Ic Kim"
 LABEL maintainer.email="sang-ic.kim@fmc.com"
 
